@@ -1,8 +1,4 @@
 
-
-//#include "app_pwm.h"
-
-#define DEVICE_NAME                     "AED Sensor"                       /**< Name of device. Will be included in the advertising data. */
 #define MANUFACTURER_NAME               "Flexsolution"                   /**< Manufacturer. Will be passed to Device Information Service. */
 #define APP_ADV_INTERVAL                300                                     /**< The advertising interval (in units of 0.625 ms. This value corresponds to 187.5 ms). */
 
