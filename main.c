@@ -1,37 +1,4 @@
 
-#include <stdint.h>
-#include <string.h>
-#include "app_scheduler.h"
-#include "app_timer.h"
-#include "nordic_common.h"
-#include "nrf.h"
-#include "app_error.h"
-#include "ble.h"
-#include "ble_hci.h"d
-#include "ble_srv_common.h"
-#include "ble_advdata.h"
-#include "ble_advertising.h"
-#include "ble_conn_params.h"
-#include "nrf_sdh.h"
-#include "nrf_sdh_soc.h"
-#include "nrf_sdh_ble.h"
-#include "fds.h"
-#include "peer_manager.h"
-#include "bsp_btn_ble.h"
-#include "sensorsim.h"
-#include "ble_conn_state.h"
-#include "nrf_ble_gatt.h"
-#include "nrf_ble_qwr.h"
-#include "nrf_pwr_mgmt.h"
-#include "nrf_drv_twi.h"
-#include "nrf_drv_pwm.h"
-#include "nrf_log.h"
-#include "nrf_log_ctrl.h"
-#include "nrf_log_default_backends.h"
-#include "ble_cus.h"
-#include "gpio_def.h"
-#include "nrf_delay.h"
-#include "main.h"
 
 //#include "app_pwm.h"
 
