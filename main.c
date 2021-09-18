@@ -1,4 +1,4 @@
-#include <stdbool.h>
+
 #include <stdint.h>
 #include <string.h>
 #include "app_scheduler.h"
@@ -1223,7 +1223,7 @@ static void jobRdLight(uint8_t event)
       {
         case STATE_LS_I2C_PWR_ON:
           //nrf_gpio_pin_set(GPIO_LED_WHITE);
-          err_code = i2c_write_ls_ctrl_pwron();                                 //pwr on light sensor - ready´within 10msec
+          err_code = i2c_write_ls_ctrl_pwron();                                 //pwr on light sensor - readyÂ´within 10msec
           APP_ERROR_CHECK(err_code);
           state = STATE_LS_I2C_RD_ID;
           start_app_timer_rd_light2();
